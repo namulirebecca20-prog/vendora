@@ -1,4 +1,6 @@
 
+"use client";
+
 import {
   createContext,
   useContext,
@@ -129,5 +131,4 @@ export function useAuth() {
   }
 
   return context;
-  }
-    
+}
