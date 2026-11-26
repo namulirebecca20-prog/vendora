@@ -1,4 +1,4 @@
-
+"use client";
 import { useAuth } from "./context/AuthContext";
 import AuthPage from "./components/AuthPage";
 import Dashboard from "./components/Dashboard";
