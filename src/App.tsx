@@ -1,7 +1,7 @@
 
 import { useAuth } from "./context/AuthContext";
-import AuthPage from "./pages/AuthPage";
-import Dashboard from "./pages/Dashboard";
+import AuthPage from "./components/AuthPage";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   const { user, loading } = useAuth();
